@@ -1,0 +1,41 @@
+.Country {
+  border-radius: 10px;
+  padding: 0 0;
+  height: 400px;
+  min-width: 400px;
+  align-self: flex-start;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ced4da;
+}
+.Country-Info {
+  align-self: center;
+  width: 80%;
+  text-align: start;
+  color: #495057;
+  margin-bottom: 15px;
+}
+.Country:hover {
+  box-shadow: 0 18px 26px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  scale: 1.02;
+  transition: 0.4s;
+}
+.Country img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  border-radius: 10px;
+}
+@media (max-width: 450px) {
+  .Country {
+    height: 350px;
+    min-width: 350px;
+  }
+  .Country-Info p {
+    margin: 5px;
+  }
+}

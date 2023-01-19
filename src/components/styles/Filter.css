@@ -1,0 +1,16 @@
+.Filter {
+  margin: 0;
+  margin-right: 120px;
+}
+.Filter select {
+  padding: 8px 25px;
+  font-size: 14px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #495057;
+  outline: none;
+  cursor: pointer;
+}
+.Filter option {
+  cursor: pointer;
+}

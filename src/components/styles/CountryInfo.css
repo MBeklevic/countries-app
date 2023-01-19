@@ -1,0 +1,67 @@
+.CountryInfo {
+  text-align: center;
+  background-color: #adb5bd;
+  min-height: 100vh;
+}
+.CountryInfo h1 {
+  height: 40px;
+  background-color: #495057;
+  text-align: start;
+  padding: 20px 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.CountryInfo button {
+  display: block;
+  text-align: start;
+  margin-left: 100px;
+  padding: 7px 25px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 120px;
+  background-color: #495057;
+  box-shadow: rgba(3, 102, 214, 0.1) 0px 0px 0px 3px;
+}
+
+.CountryInfo button a {
+  color: #fff;
+  font-weight: 700;
+}
+.CountryInfo-container {
+  background-color: #495057;
+  width: 500px;
+  text-align: left;
+  margin: auto;
+  border-radius: 20px;
+  min-height: 500px;
+  padding: 20px 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.CountryInfo-container img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.CountryInfo-info {
+  padding-left: 20px;
+  color: #adb5bd;
+  letter-spacing: 0;
+}
+.CountryInfo-info a {
+  display: inline-block;
+  color: #fff;
+  margin-top: 10px;
+}
+.CountryInfo-info p {
+  margin: 3px 0;
+}
+.CountryInfo-info h4 {
+  margin-bottom: 0;
+}

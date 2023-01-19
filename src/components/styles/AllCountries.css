@@ -1,0 +1,53 @@
+.AllCountries {
+  text-align: center;
+  background-color: #adb5bd;
+  min-height: 100vh;
+}
+.AllCountries h1 {
+  height: 40px;
+  background-color: #495057;
+  text-align: start;
+  padding: 20px 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+}
+.AllCountries-Countries {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 20px;
+  flex-wrap: wrap;
+}
+.AllCountries-Features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+@media (max-width: 450px) {
+  .AllCountries h1 {
+    padding: 10px 40px;
+    text-align: center;
+  }
+  .AllCountries-Features {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+}
+@media (max-width: 750px) {
+  .AllCountries h1 {
+    padding: 10px 40px;
+    text-align: center;
+  }
+  .AllCountries-Features {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,22 @@
+.Search {
+  margin: 0;
+}
+.Search input {
+  display: flex;
+}
+.Search input {
+  padding: 7px 25px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  margin-left: 120px;
+  color: #fff;
+  background-color: #495057;
+}
+@media (max-width: 450px) {
+  .Search input {
+    margin-left: 100px;
+    padding: 7px 15px;
+  }
+}

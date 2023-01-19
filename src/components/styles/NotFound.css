@@ -1,0 +1,18 @@
+.NotFound {
+  border-radius: 10px;
+  font-size: 30px;
+  color: #495057;
+  height: 100vh;
+  min-width: 400px;
+  align-self: flex-start;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  background-color: #ced4da;
+}
+.NotFound a {
+  color: #0077b6;
+  font-size: 30px;
+}
